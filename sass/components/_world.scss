@@ -1,0 +1,24 @@
+.world {
+  padding: 49px 0 22px 0;
+  height: 720px;
+  background: url('../img/map.png') center (center/cover) no-repeat;
+}
+
+.world__title {
+  color: $main-white;
+}
+
+.world__subtitle {
+  color: $main-white;
+}
+
+.world__all-city {
+  position: relative;
+  left: 43%;
+  bottom: -475px;
+  font-size: 15px;
+  font-weight: 400;
+  color: $main-blue;
+  text-transform: uppercase;
+  text-decoration: none;
+}

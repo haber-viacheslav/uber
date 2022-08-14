@@ -1,0 +1,35 @@
+.label {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 6px 12px;
+  color: $main-white;
+  background-color: $black;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.label--dark-mode {
+  background: $main-white;
+  color: $label-black;
+}
+
+.title {
+  margin-bottom: 0;
+  margin-top: 32px;
+  color: $main-black;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: $main-black;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.choise {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 56px 0 137px 0;
+  min-height: 898px;
+  background: url('../img/car-top_bg.png') center (center/cover) no-repeat;
+}
+
+.choise__title {
+  margin-top: 27px;
+  color: $main-white;
+}
+
+.choise__subtitle {
+  color: $main-white;
+}
+
+.choise__car-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 54px;
+}
+
+.choise__text {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: $main-black;
+  text-align: center;
+}

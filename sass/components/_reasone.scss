@@ -1,0 +1,40 @@
+.reasone {
+  min-height: 850px;
+  padding: 18px 0 64px 0;
+}
+
+.reasone__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.reasone__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 116px;
+  height: 116px;
+  background: $main-blue;
+}
+
+.reasone__descr {
+  width: 371px;
+  margin-left: 25px;
+}
+
+.reasone__subheader {
+  color: $main-blue;
+  line-height: 21px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.reasone__text {
+  color: $main-black;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+}

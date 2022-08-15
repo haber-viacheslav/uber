@@ -78,7 +78,7 @@
   width: 14px;
   height: 2px;
   background-color: $main_blue;
-  transition: 0.3s all;
+  transition: 300ms background-color linear;
 }
 
 .mobile__plus:after {
@@ -90,5 +90,5 @@
   height: 14px;
   width: 2px;
   background-color: $main_blue;
-  transition: 0.3s all;
+  transition: 300ms background-color linear;
 }

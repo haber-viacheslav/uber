@@ -47,7 +47,7 @@
 .subtitle {
   color: #212121;
   font-size: 17px;
-  line-height: 21px;
+  line-height: 1.24;
   font-weight: 400;
   text-align: center;
 }
@@ -160,7 +160,7 @@ nav {
   color: #ffffff;
   font-weight: 400;
   font-size: 22px;
-  line-height: 12px;
+  line-height: 1;
   text-transform: uppercase;
   text-decoration: none;
   text-align: right;
@@ -312,7 +312,7 @@ nav {
 
 .mobile__descr {
   font-size: 24px;
-  line-height: 31px;
+  line-height: 1.29;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;

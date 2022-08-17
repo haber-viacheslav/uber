@@ -4,6 +4,12 @@
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .label {
@@ -136,7 +142,7 @@ nav {
   text-transform: uppercase;
   color: #ffffff;
 }
-.btn:hover, .btnfocus {
+.btn:hover, .btn:focus {
   background-color: #1ca8c3;
 }
 
@@ -176,7 +182,7 @@ nav {
   color: #ffffff;
   font-weight: 700;
   font-size: 60px;
-  line-height: 60px;
+  line-height: 1;
   text-transform: uppercase;
   text-align: center;
   margin: 0;
@@ -186,7 +192,7 @@ nav {
   color: #ffffff;
   font-weight: 700;
   font-size: 36px;
-  line-height: 36px;
+  line-height: 1;
   text-transform: uppercase;
   text-align: center;
   margin: 0;
@@ -198,7 +204,7 @@ nav {
   color: #ffffff;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   text-align: center;
 }
 
@@ -255,16 +261,16 @@ nav {
 
 .reasone__subheader {
   color: #1ca8c3;
-  line-height: 21px;
-  font-weight: 400;
   font-size: 17px;
+  line-height: 1.23;
+  font-weight: 400;
 }
 
 .reasone__text {
   color: #212121;
   font-weight: 300;
   font-size: 15px;
-  line-height: 21px;
+  line-height: 1.4;
 }
 
 .mobile {
@@ -399,7 +405,7 @@ nav {
 .choise__text {
   font-weight: 300;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 1.41;
   color: #212121;
   text-align: center;
 }
@@ -449,7 +455,7 @@ nav {
   position: relative;
   font-weight: 300;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 1.41;
   margin-bottom: 10px;
 }
 .conditions__item:before {
@@ -493,14 +499,142 @@ nav {
 }
 
 .footer {
-  min-width: 155px;
-  padding: 11px 0 38px 0;
+  padding: 11px 23px 38px 23px;
 }
 
 .footer__devider {
+  min-width: 155px;
   display: block;
   margin: 0 auto;
+  margin-bottom: 32px;
   background-color: #1ca8c3;
   height: 7px;
   width: 300px;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+}
+
+.social-wrp {
+  width: 33%;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+}
+
+.social__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: #070716;
+  color: #ffffff;
+  border-radius: 50%;
+}
+.social__link:hover, .social__link:focus {
+  color: #1ca8c3;
+}
+
+.social__icon {
+  fill: currentColor;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 33%;
+}
+
+.footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 47px;
+}
+
+.footer-menu__link {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: #070716;
+}
+
+.footer-submenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 23px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-submenu__link {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.app-link {
+  margin-left: auto;
+}
+
+.language {
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  font-size: 11px;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1fbad6;
 }/*# sourceMappingURL=main.css.map */

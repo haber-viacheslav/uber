@@ -30,14 +30,18 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4 offset-md-1">
-              <a href="#" class="subheader__logo"><img src="icons/uber.png" alt="Uber logo" width="40" height="40" /></a>
+              <a href="#" class="subheader__logo" aria-label="company logo">
+                <svg class="subheader__icon" width="40" height="40">
+                  <use href="./icons/svg/icons.svg#icon-uber-logo"></use>
+                </svg>
+              </a>
               <div class="subheader__official">Официальный партнер Uber в Киеве</div>
             </div>
-            <div class="col-md-2 offset-md-2">
+            <div class="col-md-3 offset-md-1 col-xl-2 offset-xl-2">
               <div class="subheader__call">Звоните нам ежедневно</div>
-              <a href="tel:+3808005553377" class="phone__numb">38-800-555-33-77</a>
+              <a href="tel:+38005553377" class="phone__numb">3-800-555-33-77</a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3 col-lg-2">
               <button class="btn subheader__btn">заказать звонок</button>
             </div>
           </div>
@@ -48,7 +52,7 @@
     <section class="promo">
       <div class="container">
         <div class="row">
-          <div class="col-md-10 offset-md-1">
+          <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
             <h1 class="promo__header">КОМПАНИЯ UBER PARTNERS!</h1>
             <h2 class="promo__subheader">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
             <p class="promo__description">
@@ -56,8 +60,7 @@
               прозрачная вы можете контролировать все процессы у себя в личном кабинете. Бонуcная система.Помимо выполненной работы по заказам,
               компания начисляет бонусы запиковое время.
               <br /><br />
-              Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Москве. Водители у насзарабатывают от 80000- 120000 в
-              месяц.
+              Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в Киеве. Водители у нас зарабатывают от 20000 - 40000 грн в месяц.
             </p>
             <button class="btn promo__btn">ОТПРАВИТЬ ЗАЯВКУ</button>
           </div>
@@ -188,7 +191,7 @@
       <div class="container">
         <div class="label">возможности</div>
         <h2 class="title">мобильное приложение убер</h2>
-        <div class="subtitle mobile_subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
+        <div class="subtitle mobile__subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
 
         <div class="row">
           <div class="col-md-4">
@@ -264,8 +267,8 @@
                 <li class="conditions__item">Деньги перечисляем на карту водителю или наличны-<br />ми в офисе</li>
               </ul>
               <div class="conditions__sub__text">
-                В день заработок составляет 7000-12000р + бонус 3000т <br />
-                рублей
+                В день заработок составляет 2000 - 4000 + бонус 500 <br />
+                гривен
               </div>
             </div>
           </div>
@@ -314,10 +317,13 @@
 
     <!-- World section -->
     <section class="world">
-      <div class="container">
-        <div class="label label--dark-mode">города</div>
-        <div class="world__title title">по всему миру</div>
-        <div class="world__subtitle subtitle">Мы в вашем городе и по всему миру</div>
+      <div class="container container--flex">
+        <div class="world__content">
+          <div class="label label--dark-mode">города</div>
+          <div class="world__title title">по всему миру</div>
+          <div class="world__subtitle subtitle">Мы в вашем городе и по всему миру</div>
+        </div>
+
         <a href="#" class="world__all-city">посмотреть все города</a>
       </div>
     </section>
@@ -375,9 +381,9 @@
             <img src="/icons/app-links.png" width="296" height="27" alt="footer app" class="footer__app" />
           </a>
         </div>
-      </div>
 
-      <a href="" class="language link">русский</a>
+        <a href="" class="language link">русский</a>
+      </div>
     </footer>
   </body>
 </html>

@@ -3,6 +3,7 @@ header {
 }
 
 nav {
+  position: relative;
   width: 100%;
   height: 50px;
   background-color: $main-black;
@@ -33,6 +34,10 @@ nav {
     border: none;
     padding-right: 0;
   }
+}
+
+.burger {
+  display: none;
 }
 
 .subheader {
@@ -102,4 +107,8 @@ nav {
   text-transform: uppercase;
   text-decoration: none;
   text-align: right;
+}
+
+.xs-visible {
+  display: none;
 }

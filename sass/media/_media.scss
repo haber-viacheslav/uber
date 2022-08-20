@@ -192,4 +192,69 @@
   .menu__link {
     font-size: 20px;
   }
+
+  .burger {
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 12px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+
+  }
+
+  .burger__item {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: $main-white;
+    margin-bottom: 3px;
+    transition: 500ms transform linear;
+  }
+
+  .burger--active {
+    .burger__item {
+      margin-bottom: -2px;
+      &:nth-child(1) {
+        transform: translateY(3px) rotate(-45deg);
+      }
+      &:nth-child(2) {
+        display: none;
+      }
+      &:nth-child(3) {
+        transform: translateY(3px) rotate(45deg);
+      }
+    }
+  }
+
+  .xs-hidden {
+    display: none;
+  }
+
+  .xs-visible {
+    display: block;
+    text-align: center;
+  }
+
+  .phone__numb {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  
+  .subheader__btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-top: 8px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
